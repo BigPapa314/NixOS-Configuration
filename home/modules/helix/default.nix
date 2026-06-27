@@ -19,7 +19,6 @@ in {
       gopls
       dockerfile-language-server-nodejs
       cmake-language-server
-      nodePackages_latest.bash-language-server
       helm-ls
       nil
     ];

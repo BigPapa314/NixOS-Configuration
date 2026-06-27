@@ -6,7 +6,7 @@
   theme,
   ...
 }: let
-  inherit (lib) mkEnableOption mkIf;
+  inherit (lib) mkEnableOption mkIf mkForce;
   inherit (lib.generators) mkLuaInline;
 
   cfg = config.module.nvim;
@@ -171,7 +171,7 @@ in {
 
           theme = {
             enable = true;
-            name = theme;
+            name = mkForce theme;
             style = "dark";
           };
 
