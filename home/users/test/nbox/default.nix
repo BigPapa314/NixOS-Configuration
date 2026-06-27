@@ -23,7 +23,6 @@
     ../../../modules/alacritty
     ../../../modules/flameshot
     ../../../modules/cinnamon
-    ../../../modules/neofetch
     ../../../modules/chrome
     ../../../modules/htop
     ../../../modules/zsh

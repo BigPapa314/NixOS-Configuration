@@ -19,7 +19,7 @@
   module = {
     git.enable = true;
     htop.enable = true;
-    neofetch.enable = true;
+    fastfetch.enable = true;
     nvim.enable = true;
     zsh.enable = true;
 
