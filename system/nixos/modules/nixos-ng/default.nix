@@ -22,11 +22,6 @@ in {
     };
 
     system = {
-      switch = {
-        enable = false;
-        enableNg = true;
-      };
-
       /*
       etc.overlay = {
         enable = true;

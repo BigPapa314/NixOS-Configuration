@@ -5,7 +5,7 @@
 }: {
   # Graphics card settings
   nixpkgs.overlays = [
-    (import "${self}/system/nixos/overlays/vaapiIntel")
+    (import "${self}/system/nixos/overlays/intel-vaapi-driver")
   ];
 
   hardware.graphics = {
@@ -15,7 +15,7 @@
     extraPackages = with pkgs; [
       mesa
       intel-media-driver
-      vaapiIntel
+      intel-vaapi-driver
       vaapiVdpau
       libvdpau-va-gl
     ];

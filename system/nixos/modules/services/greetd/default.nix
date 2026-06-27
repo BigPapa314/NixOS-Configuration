@@ -40,14 +40,13 @@ in {
 
     services.greetd = {
       enable = true;
-      vt = 7;
 
       settings = {
         default_session = {
           user = username;
 
           command = builtins.concatStringsSep " " [
-            "${pkgs.greetd.tuigreet}/bin/tuigreet"
+            "${pkgs.tuigreet}/bin/tuigreet"
             "--asterisks"
             "--remember"
             "--time"

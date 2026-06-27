@@ -14,9 +14,7 @@ in {
 
   config = mkIf cfg.enable {
     home.persistence = {
-      "/persist/home/${username}" = {
-        allowOther = true;
-
+      "/persist" = {
         directories = [
           "Code"
           "Desktop"
