@@ -65,7 +65,7 @@ in {
         google-chrome
 
         # Office
-        onlyoffice-bin
+        onlyoffice-desktopeditors
 
         # Misc
         obs-studio
