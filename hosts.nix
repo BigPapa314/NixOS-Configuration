@@ -1,5 +1,14 @@
 {
   nixos = {
+    nhpbox = {
+      username = "thomas";
+      platform = "x86_64-linux";
+      stateVersion = "25.05";
+      isWorkstation = true;
+      wm = "sway";
+      theme = "nord";
+    };
+
     pcbox = {
       username = "maxmur";
       platform = "x86_64-linux";
